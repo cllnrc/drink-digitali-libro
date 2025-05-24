@@ -1,0 +1,50 @@
+# Drink Digitali - Git Ignore
+
+# File temporanei
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# File di backup
+*.bak
+*.backup
+*.orig
+
+# Log files
+*.log
+logs/
+
+# File di cache
+.cache/
+cache/
+
+# File IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File di sistema
+*.pid
+*.lock
+
+# Output di build/rendering
+output/
+build/
+dist/
+
+# File personali/sensibili
+personal-notes/
+private/
+secrets/
+
+# File MCP temporanei
+.mcp-cache/
+mcp-temp/
+
+# Draft non pronti
+*-draft.*
+*-wip.*
+*-temp.*
