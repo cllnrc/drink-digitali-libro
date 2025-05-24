@@ -2,9 +2,11 @@
 
 ## Concept Generale
 
-**"Drink Digitali"** è un libro innovativo che unisce ricette di cocktail analcolici con il mondo della tecnologia, creando un ponte unico tra l'esperienza personale di sobrietà dell'autore Enrico Callegaro e la sua profonda passione per l'innovazione tecnologica.
+**"Drink Digitali / Digital Drinks"** è un libro bilingue innovativo che unisce ricette di cocktail analcolici con il mondo della tecnologia, creando un ponte unico tra l'esperienza personale di sobrietà dell'autore Enrico Callegaro e la sua profonda passione per l'innovazione tecnologica.
 
-Il progetto rappresenta un esperimento pionieristico di **collaborazione uomo-AI**, utilizzando tecnologie MCP (Model Context Protocol) per creare un'opera che sia al tempo stesso profondamente umana e tecnologicamente avanzata.
+Il progetto rappresenta un esperimento pionieristico di **collaborazione uomo-AI bilingue**, utilizzando tecnologie MCP (Model Context Protocol) per creare un'opera che sia al tempo stesso profondamente umana, tecnologicamente avanzata e accessibile a mercati italiano e anglofono simultaneamente.
+
+**FORMATO BILINGUE**: Ogni contenuto è presentato in formato affiancato (pagina sinistra italiana, pagina destra inglese), massimizzando l'appeal internazionale e creando un USP unico nel panorama editoriale tech-food.
 
 ## Obiettivi Principali
 
@@ -19,23 +21,32 @@ Creare un libro di ricette analcoliche che dimostri come la sobrietà possa esse
 
 ## Target di Lettura
 
-### Target Primario
-- **Tech Enthusiasts Sobri**: Professionisti del settore tecnologico che hanno scelto la sobrietà
-- **Curiosi della Mixology**: Appassionati di cocktail che esplorano alternative analcoliche
-- **Early Adopters**: Lettori interessati alle novità editoriali e all'innovazione
+### Target Primario Italiano
+- **Tech Enthusiasts Sobri**: Professionisti IT italiani che hanno scelto la sobrietà
+- **Curiosi della Mixology**: Appassionati italiani di cocktail che esplorano alternative analcoliche
+- **Community Sobrietà Consapevole**: Movimento italiano sober curious
 
-### Target Secondario  
-- **Professionisti della Sobrietà**: Counselor, terapeuti, operatori del settore
-- **Amanti dell'Innovazione Culinaria**: Chef, bartender, food blogger
-- **Appassionati di AI**: Persone interessate alle applicazioni creative dell'intelligenza artificiale
+### Target Primario Anglofono
+- **International Tech Community**: Professionisti tecnologia globalmente
+- **Sober Curious Movement**: Community internazionale sobrietà consapevole
+- **AI/Innovation Enthusiasts**: Early adopters innovazione mondiale
+- **Digital Nomads**: Comunità expat e nomadi digitali
+
+### Target Secondario Bilingue
+- **Italiani all'estero**: Tech diaspora italiana internazionale
+- **Professionisti internazionali in Italia**: Studenti e lavoratori stranieri
+- **Crossover Communities**: Intersezioni tech-food-sobriety globali
+- **Professionisti della Sobrietà**: Counselor, terapeuti, operatori settore
+- **Amanti dell'Innovazione Culinaria**: Chef, bartender, food blogger internazionali
 
 ## Struttura del Libro
 
-### Macro-Struttura
-- **9 Capitoli Tematici**: Dall'introduzione alle tecnologie emergenti
-- **30-40 Ricette**: Distribuite progressivamente per complessità
-- **3 Appendici**: Glossario, attrezzatura, ingredienti speciali
-- **180-220 Pagine**: Formato ottimale per KDP
+### Macro-Struttura Bilingue
+- **9 Capitoli Tematici**: Dall'introduzione alle tecnologie emergenti (IT + EN)
+- **40 Ricette**: Distribuite progressivamente per complessità (formato affiancato)
+- **3 Appendici**: Glossario, attrezzatura, ingredienti speciali (bilingue)
+- **360-400 Pagine**: Formato bilingue affiancato per KDP
+- **Layout**: Pagina sinistra italiana, pagina destra inglese, immagini centrali
 
 ### Temi dei Capitoli
 1. **Introduzione**: Il viaggio personale verso la sobrietà digitale
@@ -68,32 +79,31 @@ Creare un libro di ricette analcoliche che dimostri come la sobrietà possa esse
 - **Tono Conversazionale**: Come una chiacchierata tra amici esperti
 - **Equilibrio Emotivo**: Profondo ma mai pesante, riflessivo ma coinvolgente
 
-## Timeline del Progetto
+## Timeline del Progetto Bilingue
 
-### Fase 1: Foundation (Settimane 1-2)
+### Fase 1: Foundation (Settimane 1-3) - **IN CORSO**
 - ✅ Setup MCP servers e GitHub
-- ✅ Definizione agenti e protocolli
-- ✅ Struttura filesystem
-- 🔄 **IN CORSO**: Salvataggio documenti base
+- ✅ Definizione agenti e protocolli bilingue
+- ✅ Struttura filesystem per IT/EN
+- 🔄 **IN CORSO**: Salvataggio documenti base e strategia bilingue
 
-### Fase 2: Content Creation (Settimane 3-8)
-- Sviluppo capitoli 1-3 (Settimane 3-4)
-- Creazione prime 15 ricette (Settimane 3-5)
-- Sviluppo capitoli 4-6 (Settimane 5-6)
-- Creazione seconde 15 ricette (Settimane 6-7)
-- Sviluppo capitoli finali e appendici (Settimana 8)
+### Fase 2: Content Creation (Settimane 4-10)
+- **Settimane 4-5**: Capitoli 1-3 (IT draft → EN adaptation)
+- **Settimane 6-7**: Prime 20 ricette (sviluppo parallelo IT-EN)
+- **Settimane 8-9**: Capitoli 4-6 + seconde 20 ricette
+- **Settimana 10**: Capitoli finali e appendici bilingue
 
-### Fase 3: Refinement (Settimane 9-10)
-- Revisione completa con agente EDIT
-- Ottimizzazione per KDP
-- Testing ricette e verifiche tecniche
-- Finalizzazione elementi visual
+### Fase 3: Integration & Refinement (Settimane 11-14)
+- **Settimana 11**: Layout bilingue e formattazione
+- **Settimana 12**: Quality assurance linguistica completa
+- **Settimana 13**: Testing finale e optimizations
+- **Settimana 14**: Pubblicazione e launch strategy
 
-### Fase 4: Publishing (Settimane 11-12)
-- Formattazione finale
-- Upload su KDP
-- Materiali marketing
-- Launch strategy
+### Metodologia di Sviluppo
+- **Concept**: Sviluppo in italiano (lingua madre)
+- **Translation/Adaptation**: Traduzione immediata con adattamenti culturali
+- **Integration**: Formattazione bilingue e layout affiancato
+- **Review**: Quality assurance per entrambe le lingue
 
 ## Metriche di Successo
 
@@ -144,22 +154,27 @@ Creare un libro di ricette analcoliche che dimostri come la sobrietà possa esse
 - **GitHub Pro**: Per repository privato e advanced features
 - **KDP Account**: Setup e ottimizzazione per pubblicazione
 
-### Budget Stimato
+### Budget Stimato Bilingue
 - **Ingredienti Testing**: €150-200 per sperimentazione ricette
 - **Tools e Software**: €50 per eventuali addon
-- **Marketing Launch**: €100-150 per promozione iniziale
-- **Contingency**: €100 per imprevisti
+- **Layout Design Bilingue**: €100 per design affiancato
+- **Quality Assurance Linguistica**: €50 per review EN
+- **Marketing Launch Dual-Language**: €100-150 per promozione IT+EN
+- **Contingency**: €150 per imprevisti aggiuntivi
 
-**BUDGET TOTALE**: €400-500
+**BUDGET TOTALE BILINGUE**: €600-700
+**ROI ATTESO**: 300-500% maggiore per mercato espanso internazionale
 
 ## Unique Selling Propositions
 
-1. **Primo libro AI-MCP**: Pionierismo tecnologico documentato
-2. **Autenticità Narrativa**: Storia personale genuina e ispirazionale  
-3. **Doppia Competenza**: Tech expertise + sobrietà experience
-4. **Innovazione Culinaria**: Connessioni tech-food inedite
-5. **Processo Trasparente**: Open source del metodo creativo
-6. **Community Building**: Base per movimento sobrietà+tech
+1. **Primo libro AI-MCP bilingue**: Pionierismo tecnologico e linguistico documentato
+2. **Formato bilingue affiancato**: Unico nel panorama tech-food editoriale
+3. **Mercato internazionale**: Accesso simultaneo a community IT e anglofone
+4. **Autenticità Narrativa**: Storia personale genuina con adattamento culturale
+5. **Doppia Competenza**: Tech expertise + sobrietà experience + cross-cultural appeal
+6. **Innovazione Culinaria**: Connessioni tech-food inedite con naming creativo bilingue
+7. **Processo Trasparente**: Open source del metodo creativo cross-language
+8. **Community Building Globale**: Base per movimento sobrietà+tech internazionale
 
 ## Vision Statement
 

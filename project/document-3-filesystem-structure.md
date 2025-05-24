@@ -1,91 +1,106 @@
-# Struttura del Filesystem per il Progetto "Drink Digitali"
+# Struttura del Filesystem per il Progetto "Drink Digitali / Digital Drinks"
 
-Questo documento definisce l'organizzazione completa del filesystem per il progetto "Drink Digitali", spiegando la logica, la struttura e le convenzioni di denominazione per le directory e i file.
+Questo documento definisce l'organizzazione completa del filesystem per il progetto bilingue "Drink Digitali / Digital Drinks", spiegando la logica, la struttura e le convenzioni di denominazione per le directory e i file in formato italiano-inglese affiancato.
 
-## Struttura Principale
+## Struttura Principale Bilingue
 
 ```
 /content/
-├── chapters/
-│   ├── 01-introduction.md
-│   ├── 02-chapter-name.md
+├── chapters-bilingual/
+│   ├── 01-introduction-it-en.md
+│   ├── 02-digital-foundations-it-en.md
 │   └── ...
-├── recipes/
-│   ├── recipe-01-neural-nectar.md
-│   ├── recipe-02-synapse-spritz.md
+├── recipes-bilingual/
+│   ├── recipe-01-neural-nectar-it-en.md
+│   ├── recipe-02-quantum-quencher-it-en.md
 │   └── ...
-└── appendix/
-    ├── glossary.md
-    └── equipment.md
+├── appendix-bilingual/
+│   ├── glossary-it-en.md
+│   ├── equipment-it-en.md
+│   └── ingredients-it-en.md
+└── 00-prefazione-it-en.md
 
 /assets/
 ├── images/
 │   ├── drinks/
-│   └── diagrams/
+│   ├── diagrams/
+│   └── layout-samples/
 └── graphics/
     ├── icons/
-    └── decorative/
+    ├── decorative/
+    └── bilingual-elements/
 
 /publish/
-├── metadata.md
-└── kdp-settings.md
+├── metadata-bilingual.md
+├── kdp-settings-it.md
+├── kdp-settings-en.md
+└── layout-specifications.md
 
 /project/
-├── outline.md
-├── progress.md
+├── bilingual-strategy.md
+├── translation-guidelines.md
+├── outline-bilingual.md
+├── progress-bilingual.md
 └── templates/
-    ├── recipe-template.md
-    └── chapter-template.md
+    ├── recipe-template-bilingual.md
+    ├── chapter-template-bilingual.md
+    └── layout-template.md
 ```
 
-## Logica Organizzativa
+## Logica Organizzativa Bilingue
 
 La struttura è progettata secondo i seguenti principi:
 
-1. **Separazione di contenuto ed elementi tecnici**: Il contenuto effettivo del libro è separato dagli elementi di supporto come metadati e tracciamento.
+1. **Formato bilingue integrato**: Ogni file contiene sia la versione italiana che inglese, organizzate per layout affiancato (pagina sinistra IT, pagina destra EN).
 
-2. **Organizzazione tematica**: I contenuti sono organizzati per tipo (capitoli, ricette, appendici) piuttosto che per ordine di creazione.
+2. **Separazione di contenuto ed elementi tecnici**: Il contenuto effettivo del libro è separato dagli elementi di supporto come metadati e tracciamento, ma entrambi gestiscono il formato bilingue.
 
-3. **Nomenclatura coerente**: Le convenzioni di denominazione sono progettate per facilità di navigazione e coerenza.
+3. **Organizzazione tematica bilingue**: I contenuti sono organizzati per tipo (capitoli, ricette, appendici) con denominazione esplicita bilingue.
 
-4. **Accessibilità**: La struttura è pensata per facilitare il ritrovamento rapido di ogni elemento del progetto.
+4. **Nomenclatura coerente cross-language**: Le convenzioni di denominazione includono identificatori "-it-en" per facilitare gestione e navigazione.
+
+5. **Accessibilità internazionale**: La struttura facilita lo sviluppo simultaneo in entrambe le lingue e la produzione del layout finale affiancato.
+
+6. **Workflow parallelo**: Supporta sviluppo, traduzione e revisione integrate per entrambe le versioni linguistiche.
 
 ## Dettaglio delle Directory
 
 ### /content/
 Contiene tutto il contenuto effettivo del libro, suddiviso in tre sottocategorie principali:
 
-#### /content/chapters/
-I capitoli del libro, ciascuno in un file markdown separato:
-- **01-introduction.md**: Introduzione che presenta il concetto del libro
-- **02-...**: Ciascun capitolo successivo, numerato progressivamente
+#### /content/chapters-bilingual/
+I capitoli del libro in formato bilingue, ciascuno in un file markdown con contenuto italiano e inglese affiancato:
+- **01-introduction-it-en.md**: Introduzione che presenta il concetto del libro (IT + EN)
+- **02-digital-foundations-it-en.md**: Fondamenti digitali (IT + EN)
+- **03-...**: Ciascun capitolo successivo, numerato progressivamente
 
-**Convenzioni di denominazione**: `XX-nome-capitolo.md`, dove XX è un numero a due cifre che indica l'ordine dei capitoli.
+**Convenzioni di denominazione**: `XX-nome-capitolo-it-en.md`, dove XX è un numero a due cifre e "-it-en" indica formato bilingue.
 
-**Logica interna**: Ciascun file capitolo segue questa struttura:
-1. Titolo del capitolo
-2. Breve introduzione/narrative hook
-3. Tema tecnologico del capitolo
-4. Collegamento con l'esperienza personale
-5. Transizione alle ricette
-6. Conclusione e collegamento al capitolo successivo
+**Logica interna bilingue**: Ciascun file capitolo segue questa struttura:
+1. **Titolo bilingue**: Italiano | English
+2. **Introduzione parallela**: Hook narrativo in entrambe le lingue
+3. **Tema tecnologico**: Spiegazione concetti IT-EN
+4. **Esperienza personale**: Adattata culturalmente per entrambi i mercati
+5. **Transizione ricette**: Bridge alle ricette bilingue
+6. **Conclusione**: Collegamento al capitolo successivo (IT+EN)
 
-#### /content/recipes/
-Le ricette individuali, ciascuna in un file markdown separato:
-- **recipe-01-neural-nectar.md**: Prima ricetta completa
-- **recipe-02-synapse-spritz.md**: Seconda ricetta, ecc.
+#### /content/recipes-bilingual/
+Le ricette individuali in formato bilingue, ciascuna in un file markdown con versione italiana e inglese:
+- **recipe-01-neural-nectar-it-en.md**: Prima ricetta completa (IT + EN)
+- **recipe-02-quantum-quencher-it-en.md**: Seconda ricetta, ecc.
 
-**Convenzioni di denominazione**: `recipe-XX-nome-ricetta.md`, dove XX è un numero progressivo a due cifre.
+**Convenzioni di denominazione**: `recipe-XX-nome-ricetta-it-en.md`, dove XX è un numero progressivo a due cifre e "-it-en" indica formato bilingue.
 
-**Logica interna**: Ciascun file ricetta segue il template standard definito in `/project/templates/recipe-template.md`.
+**Logica interna bilingue**: Ciascun file ricetta segue il template bilingue definito in `/project/templates/recipe-template-bilingual.md`, con layout affiancato per tutte le sezioni.
 
-#### /content/appendix/
-Materiale supplementare che arricchisce il libro:
-- **glossary.md**: Glossario di termini tecnici e mixology
-- **equipment.md**: Guida all'attrezzatura necessaria
+#### /content/appendix-bilingual/
+Materiale supplementare bilingue che arricchisce il libro:
+- **glossary-it-en.md**: Glossario termini tecnici e mixology (IT + EN)
+- **equipment-it-en.md**: Guida attrezzatura necessaria (IT + EN)  
+- **ingredients-it-en.md**: Guida ingredienti speciali (IT + EN)
 - Altri file di appendice secondo necessità
 
-**Convenzioni di denominazione**: `nome-appendice.md` in minuscolo con trattini tra le parole.
+**Convenzioni di denominazione**: `nome-appendice-it-en.md` in minuscolo con trattini tra le parole e suffisso bilingue.
 
 ### /assets/
 Contiene riferimenti a elementi visivi del libro:
